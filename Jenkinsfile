@@ -8,13 +8,6 @@ pipeline {
       npm_config_cache = 'npm_cache'
     }
      stages {
-        stage('Pull repository') {
-          steps {
-            git branch: 'main'
-                credentialsId: 'github-organization-vspaceone'
-                url: 'git@github.com:vspaceone/SpaceKioskNG.git'
-          }
-        }
         stage('npm install') {
           steps {
             script {
