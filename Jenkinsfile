@@ -29,7 +29,7 @@ pipeline {
       stage('deploy') {
         steps {
           withCredentials([sshUserPrivateKey(credentialsId: 'webhosting-netcup-key', keyFileVariable: 'keyfile')]) {
-            sh 'scp StrictHostKeyChecking=no -i ${keyfile} -r /dist hosting180829@kiosk-dev.vspace.one/kiosk-dev.vspace.one/httpdocs'
+            sh 'scp StrictHostKeyChecking=no -i ${keyfile} -r /dist hosting180829@kiosk-dev.vspace.one:/kiosk-dev.vspace.one/httpdocs'
           }
         }
       }
