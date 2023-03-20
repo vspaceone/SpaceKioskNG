@@ -4,9 +4,6 @@ pipeline {
         image 'node:latest'
       }
     }
-    environment {
-      npm_config_cache = 'npm_cache'
-    }
      stages {
       stage('execute bash') {
           steps {
