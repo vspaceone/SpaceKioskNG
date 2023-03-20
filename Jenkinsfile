@@ -24,9 +24,10 @@ pipeline {
         }
         stage('deploy') {
           steps {
-            script {
-              sh 'scp -r /dist hosting180829@kiosk-dev.vspace.one/kiosk-dev.vspace.one/httpdocs'
+            withCredentials([sshUserPrivateKey(credentialsId: 'webhosting-netcup-key', keyFileVariable: 'keyfile')]) {
+              sh 'scp StrictHostKeyChecking=no -i ${keyfile} -r /dist hosting180829@kiosk-dev.vspace.one/kiosk-dev.vspace.one/httpdocs'
             }
+
           }
         }
      }
