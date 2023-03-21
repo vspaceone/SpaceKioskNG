@@ -26,17 +26,10 @@ pipeline {
           }
         }
       }
-      stage('change to dist dir') {
-        steps {
-          script {
-            sh 'cd dist'
-          }
-        }
-      }
       stage('deploy') {
         steps {
           withCredentials([sshUserPrivateKey(credentialsId: 'webhosting-netcup-key', keyFileVariable: 'keyfile')]) {
-            sh 'scp -o StrictHostKeyChecking=no -i ${keyfile} -r * hosting180829@kiosk-dev.vspace.one:/kiosk-dev.vspace.one/httpdocs'
+            sh 'scp -o StrictHostKeyChecking=no -i ${keyfile} -r dist/* hosting180829@kiosk-dev.vspace.one:/kiosk-dev.vspace.one/httpdocs'
           }
         }
       }
