@@ -10,6 +10,7 @@ frontend:
   phases:
     preBuild:
       commands:
+        - npm install @quasar/cli
         - npm ci
     build:
       commands:
