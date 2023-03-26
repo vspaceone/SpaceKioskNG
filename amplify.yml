@@ -14,7 +14,7 @@ frontend:
         - npm ci
     build:
       commands:
-        - quasar build -m pwa
+        - npx quasar build -m pwa
   artifacts:
     baseDirectory: /dist/pwa
     files:
