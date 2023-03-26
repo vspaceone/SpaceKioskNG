@@ -66,3 +66,6 @@ amplifyxc.config
 .history/
 
 # End of https://mrkandreev.name/snippets/gitignore-generator/#Vuejs,Amplify,VisualStudioCode
+
+#npm
+.npmrc
