@@ -1,15 +1,15 @@
 {
   "prod": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-spacekioskng-prod-214842-authRole",
-      "UnauthRoleArn": "arn:aws:iam::650318747764:role/amplify-spacekioskng-prod-214842-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::650318747764:role/amplify-spacekioskng-prod-214842-authRole",
+      "AuthRoleName": "amplify-spacekioskng-prod-223404-authRole",
+      "UnauthRoleArn": "arn:aws:iam::650318747764:role/amplify-spacekioskng-prod-223404-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::650318747764:role/amplify-spacekioskng-prod-223404-authRole",
       "Region": "eu-north-1",
-      "DeploymentBucketName": "amplify-spacekioskng-prod-214842-deployment",
-      "UnauthRoleName": "amplify-spacekioskng-prod-214842-unauthRole",
-      "StackName": "amplify-spacekioskng-prod-214842",
-      "StackId": "arn:aws:cloudformation:eu-north-1:650318747764:stack/amplify-spacekioskng-prod-214842/391e3490-cc0f-11ed-b8f6-060249638de4",
-      "AmplifyAppId": "d3a1inqtlc3v9t"
+      "DeploymentBucketName": "amplify-spacekioskng-prod-223404-deployment",
+      "UnauthRoleName": "amplify-spacekioskng-prod-223404-unauthRole",
+      "StackName": "amplify-spacekioskng-prod-223404",
+      "StackId": "arn:aws:cloudformation:eu-north-1:650318747764:stack/amplify-spacekioskng-prod-223404/8e312b80-cc15-11ed-b8f4-0eb3fddac932",
+      "AmplifyAppId": "d1efhibzgxlrjh"
     }
   }
 }
