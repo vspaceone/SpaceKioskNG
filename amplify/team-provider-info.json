@@ -1,0 +1,21 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-spacekioskng-dev-175528-authRole",
+      "UnauthRoleArn": "arn:aws:iam::650318747764:role/amplify-spacekioskng-dev-175528-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::650318747764:role/amplify-spacekioskng-dev-175528-authRole",
+      "Region": "eu-north-1",
+      "DeploymentBucketName": "amplify-spacekioskng-dev-175528-deployment",
+      "UnauthRoleName": "amplify-spacekioskng-dev-175528-unauthRole",
+      "StackName": "amplify-spacekioskng-dev-175528",
+      "StackId": "arn:aws:cloudformation:eu-north-1:650318747764:stack/amplify-spacekioskng-dev-175528/a2d7a590-cbee-11ed-9b81-0a80e7b99bd8",
+      "AmplifyAppId": "d1d4sl1iip1nmu"
+    },
+    "categories": {
+      "auth": {
+        "spacekiosknge12d6be9": {},
+        "spacekioskng92357031": {}
+      }
+    }
+  }
+}

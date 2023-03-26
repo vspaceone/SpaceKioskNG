@@ -1,0 +1,17 @@
+{
+  "projectName": "spacekioskng",
+  "version": "3.1",
+  "frontend": "javascript",
+  "javascript": {
+    "framework": "none",
+    "config": {
+      "SourceDir": "src",
+      "DistributionDir": "dist/pwa",
+      "BuildCommand": "quasar build -m pwa",
+      "StartCommand": "quasar serve --history dist/pwa"
+    }
+  },
+  "providers": [
+    "awscloudformation"
+  ]
+}
