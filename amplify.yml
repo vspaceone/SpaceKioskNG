@@ -10,13 +10,14 @@ frontend:
   phases:
     preBuild:
       commands:
-        - npm install @quasar/cli
+        - npm install -g @quasar/cli
         - npm ci
     build:
       commands:
+        - npx quasar build
         - quasar build -m pwa
   artifacts:
-    baseDirectory: dist/pwa
+    baseDirectory: /dist/pwa
     files:
       - "**/*"
   cache:
