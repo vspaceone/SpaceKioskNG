@@ -1,6 +1,8 @@
 import { route } from 'quasar/wrappers'
 import { createRouter, createMemoryHistory, createWebHistory, createWebHashHistory } from 'vue-router'
 import routes from './routes'
+import LoginWindow from 'src/components/LoginComponent.vue';
+import Dashboard from 'src/pages/LoginPage.vue';
 
 /*
  * If not building with SSR mode, you can
