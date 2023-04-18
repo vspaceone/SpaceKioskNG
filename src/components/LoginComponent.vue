@@ -1,7 +1,7 @@
 <template>
   <div>
     <q-layout view="lHh Lpr fff" class="flex flex-center">
-      <q-card class="text-black shadow-24" sqare>
+      <q-card class="text-black" sqare>
         <q-card-section class="bg-primary flex flex-center">
           <div class="text-h4 text-white">SpaceKioskNG</div>
         </q-card-section>
