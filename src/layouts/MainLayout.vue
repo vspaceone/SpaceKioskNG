@@ -59,7 +59,7 @@ const linksList = [
   {
     title: "Benutzer",
     icon: "account_circle",
-    link: "user",
+    link: "account",
   },
   {
     title: "Administration",

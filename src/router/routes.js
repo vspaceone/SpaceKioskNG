@@ -2,7 +2,17 @@ const routes = [
   {
     path: "/",
     component: () => import("layouts/MainLayout.vue"),
-    children: [{ path: "", component: () => import("pages/IndexPage.vue") }],
+    children: [
+      { path: "", component: () => import("pages/IndexPage.vue") },
+      {
+        path: "administration",
+        component: () => import("pages/AdminPage.vue"),
+      },
+      {
+        path: "account",
+        component: () => import("pages/AccountPage.vue"),
+      },
+    ],
   },
   //TODO: detect if client is logged in and forward to LoginPage if no not
   {
